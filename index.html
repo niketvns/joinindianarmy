@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Indian Army.</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #E0E0E0;
+        }
+
+        .b1 {
+            width: 28vw;
+            height: 15vh;
+            margin: 2vh 1vw;
+            padding: 1vh 0vw 0vh 2vw;
+            background-color: #224740;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            margin: 15vh 34vw;
+            background-color: #fff;
+            height: 53vh;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: #333;
+            margin: 2vh 1vw 0vh 1vw;
+            line-height: 3vh;
+        }
+
+        table {
+            margin: 1vh 2vw;
+        }
+
+        img {
+            width: 27.1vw;
+            margin: 1vh -1vw auto -1vw;
+        }
+
+        /* span.second{
+            display: inline;
+        } */
+        sup {
+            color: red;
+        }
+
+        td tr {
+            margin: 2vw;
+        }
+
+        td.capcha {
+            background-image: url("captcha.jpg");
+            width: 9vw;
+            height: 5vh;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .refresh{
+            border-style: none;
+            margin-left: 2vw;
+        }
+        /* td.refresh {
+            text-align: center;
+        }*/
+        .refresh:hover{
+            cursor: pointer;
+        } 
+        input.refresh{
+            background-color: white;
+        }
+        #input {
+            width: 19vw;
+            height: 4vh;
+            border-style: solid;
+            font-size: 1em;
+        }
+        .button {
+            text-decoration:solid;
+            width: 9vw;
+            height: 5vh;
+            background-color: #c05433;
+            color: white;
+            border-style: none;
+        }
+        .button:hover{
+            background-color: #aa3713;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="b1">
+            <img src="https://joinindianarmy.nic.in/writereaddata/Portal/Images/logo.png" alt="image">
+        </div>
+        <p>Welcome to Join Indian Army website. Please write text as shown in following image to enter into the website.
+        </p>
+        <!-- <span class="first">Captcha<sup>*</sup></span><span class="second">543274</span> -->
+        <table>
+            <tr>
+                <td><b>Captcha</b><sup>*</sup></td>
+                <td class="capcha"><b>52 91 07 51</b></td>
+                <td><input class="refresh" type="reset" value="Refresh"></td>
+                <!-- <td class="refresh">Refresh</td> -->
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <pre>              </pre>
+                </td>
+                <td><input type="text" name="" id="input" required></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <pre>       </pre>
+                </td>
+                <td><a href="joinindianarmy.html"><input class="button" type="submit" value="ENTER WEBSITE"></a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
